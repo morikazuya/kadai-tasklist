@@ -1,0 +1,20 @@
+# Compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+
+# eclispe
+.classpath
+.project
+.settings/
+build/
+
+# OS Files
+thumbs.db
+.DS_Store
