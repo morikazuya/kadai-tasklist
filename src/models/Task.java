@@ -31,11 +31,11 @@ public class Task {
     @Column(name = "content", length = 255, nullable = false)
     private String content;
 
-    @Column(name = "create_at", nullable = false)
-    private Timestamp create_at;
+    @Column(name = "created_at", nullable = false)
+    private Timestamp created_at;
 
-    @Column(name = "update_at", nullable = false)
-    private Timestamp update_at;
+    @Column(name = "updated_at", nullable = false)
+    private Timestamp updated_at;
 
     // getter と setter
     public Integer getId() {
@@ -62,19 +62,19 @@ public class Task {
         this.content = content;
     }
 
-    public Timestamp getCreate_at() {
-        return create_at;
+    public Timestamp getCreated_at() {
+        return created_at;
     }
 
-    public void setCreate_at(Timestamp create_at) {
-        this.create_at = create_at;
+    public void setCreated_at(Timestamp created_at) {
+        this.created_at = created_at;
     }
 
-    public Timestamp getUpdate_at() {
-        return update_at;
+    public Timestamp getUpdated_at() {
+        return updated_at;
     }
 
-    public void setUpdate_at(Timestamp update_at) {
-        this.update_at = update_at;
+    public void setUpdated_at(Timestamp updated_at) {
+        this.updated_at = updated_at;
     }
 }
